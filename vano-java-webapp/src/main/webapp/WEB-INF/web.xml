@@ -25,4 +25,12 @@
         <servlet-name>spring-web</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>spring-web</servlet-name>
+        <url-pattern>/student</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>spring-web</servlet-name>
+        <url-pattern>/studentData</url-pattern>
+    </servlet-mapping>
 </web-app>
