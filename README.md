@@ -2,10 +2,12 @@
 This repository contains assessment tasks for Java developer position in company IBA CZ
 There are 11 tasks/levels total to complete.
 
-Progress:   Level 3 out of 11 completed
+Progress:   Level 4 out of 11 completed
 Hotfix:     None
-Comment:    Servlet API and JSTL have been added to dependencies due to functionalities.
-            JSP API has been added as well due to IDE development (NetBeans) helper support.
-            Servlet version changed from 2.3 to 2.4 due to default support of EL in JSP.
-            New servlet and JSP page have been created for parameter based output (task 3).
-            New URL: /vano-java-webapp/hello?x=[positive integer number]
+Comment:    Maven project encoding set to UTF-8. Added Spring MVC dependency due to new implementation.
+            JSP for multiple hello print moved to WEB-INF for more Spring friendly layout.
+            Controller package (cz.xvano1.controller) created, populated and set in Spring configuration
+            for component scan. Added Spring configuration (spring-web-servlet.xml)
+            and Controller (HelloController.java) for the already created view.
+            MVC URL: /vano-java-webapp/hello?x=[positive integer number]
+            nonMVC URL (previous implementation): /vano-java-webapp/hello2?x=[positive integer number]
