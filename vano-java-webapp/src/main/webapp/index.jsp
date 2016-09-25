@@ -1,5 +1,8 @@
 <html>
-<body>
-<h2>Hello World!</h2>
-</body>
+    <head>
+        <title>Default welcome page</title>
+    </head>
+    <body>
+        <h2>Hello IBA!</h2>
+    </body>
 </html>
