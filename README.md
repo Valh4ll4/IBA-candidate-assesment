@@ -3,7 +3,9 @@ This repository contains assessment tasks for Java developer position in company
 There are 11 tasks/levels total to complete.
 
 Progress:   Level 5 out of 11 completed
-Hotfix:     None
+
+Hotfix:     Removed redundant JSP file outside WEB-INF structure.
+
 Comment:    2 new JSP pages introduced. One shows a form for entering data, and second shows the entered
             data. Controller and POJO classes for this operation have been introduced as well (Student.java,
             StudentController.java). URL mappings have been modified (new URLs):
